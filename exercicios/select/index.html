@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <form  onsubmit="" method="get">
+    <label>Nome:</label><input type="text" name="name"><br>
+    <label>Cargo</label>
+<select name="role"> <!--o atributo "multiple" pode ser inserido após role para possibilitar varias marcações-->
+<option value="">Selecione o cargo</option>
+<option value="gerente">Gerente</option>
+<option value="diretor">Diretor</option>
+<option value="presidente">Presidente</option> <!--o atributo "selected" pode ser inserido logo após option para deixar pré selecionado-->
+</select>
+<br>
+<label>Assunto:</label><input type="text" name="subject"><br>
+<label>Mensagem:</label>
+<textarea name="message"></textarea>
+<button type="submit">Enviar</button>
+    </form>    
+</body>
+</html>

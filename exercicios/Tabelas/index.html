@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Tabelas</title>
+    <style>
+        table {
+            box-shadow: 10px 12px 4px 3px rgb(170, 168, 168);
+            box-shadow: 12px 14px 6px 5px rgb(170, 168, 168);
+            border: solid 1px gray;
+        }
+
+        table thead th {
+            background-color: black;
+            color: white;
+
+        }
+
+        table tbody tr:nth-child(even) td {
+            background-color: lightgray;
+        }
+
+        table tbody tr:hover td {
+            background-color: cadetblue;
+            cursor: pointer;
+        }
+
+        table tfoot td {
+            background-color: rgba(87, 86, 86, 0.603);
+        }
+    </style>
+</head>
+
+<body>
+    <table summary="Tabela de levantamento do quantitativo de alunos" width="200" align="center" cellspacing="0"
+        cellpadding="4">
+        <caption>Tabela de Idade dos Alunos</caption>
+        <thead>
+            <tr>
+                <th colspan="2">Minha Tabela</th>
+            </tr>
+            <tr>
+                <th title="Nome Completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Renato</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>Marta</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>32</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>5</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>

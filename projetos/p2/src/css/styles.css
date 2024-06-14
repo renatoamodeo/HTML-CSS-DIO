@@ -80,6 +80,10 @@ nav>a:hover {
     color: #B6B7B2;
 }
 
+main {
+    padding: 15px;
+}
+
 main>h1 {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -99,6 +103,14 @@ main>h2 {
    
 }
 
+main>h2#esp {
+    color: rgba(189, 126, 68, 0.61);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5em;      
+    text-align: center;  
+   
+}
+
 main>p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
@@ -106,6 +118,90 @@ main>p {
     margin-left: 30px;
     
 }
+
+main>ul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: rgb(35, 75, 93);
+    margin-left: 30px;
+}
+
+main table {
+    box-shadow: 10px 12px 4px 3px rgb(170, 168, 168);
+    box-shadow: 10px 12px 6px 5px rgb(170, 168, 168);
+    border: solid 1px gray;
+    
+}
+
+main thead th{
+    background-color: gray;
+    color: white;
+    font-size: 1.5em;
+}
+
+main tbody {
+    font-size: 1.5em;
+}
+
+main table tbody tr:nth-child(even)  td{
+    background-color: lightgray;      
+                
+}
+
+main table tbody tr:hover  td{
+    background-color: rgb(35, 75, 93);
+    color: white;
+    cursor: pointer;
+}
+
+main table th,td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+main table caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+legend {
+    font-size: 2em;
+}
+
+div#wp {
+    width: 12%;       
+    padding: 5px 15px;
+    font-size: 2.5em;
+    
+
+}
+
+
+div.row {
+    margin: 10px;
+    
+    
+}
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 2em;
+}
+fieldset {
+    margin: 40px 0;
+    border-radius: 10px;
+    
+}
+button {
+    border-radius: 5px;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
 
 footer {
     background-color: #D2D2C8;

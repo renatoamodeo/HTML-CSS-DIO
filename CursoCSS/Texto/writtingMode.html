@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writting Mode</title>
+    <style>
+.exemplo {
+    width: 120px;
+    height: 120px;
+    color: black;
+    background-color: chartreuse;
+}
+
+#exemplo-01 {
+    writing-mode: horizontal-tb;
+}
+
+#exemplo-02 {
+    writing-mode: vertical-rl;
+}
+
+#exemplo-03 {
+    writing-mode: vertical-lr;
+}
+
+
+    </style>
+
+</head>
+<body>
+    <h2>Propriedade <code>writting-mode</code></h2>
+
+    <i>Exemplo:</i> 
+    
+    <code>writting-mode: horizontal-tb;</code>
+    <p id="exemplo-01" class="exemplo">
+    Tenho andado distraído
+    Impaciente e indeciso E ainda estou confuso Só que agora é diferente
+    </p>
+
+    <code>writting-mode: vertical-rl;</code>
+    <p id="exemplo-02" class="exemplo">
+    Tenho andado distraído
+    Impaciente e indeciso E ainda estou confuso Só que agora é diferente
+    </p>
+
+    code>writting-mode: vertical-lr;</code>
+    <p id="exemplo-03" class="exemplo">
+    Tenho andado distraído
+    Impaciente e indeciso E ainda estou confuso Só que agora é diferente
+    </p>
+    
+</body>
+</html>
